@@ -8,7 +8,6 @@ DOC1 = """```
 
         How to work with the bot:
         - Ask for API Documentation
-        - Ask for Examples
         - Links for Bug reports, sponsors, wiki```
 """
 DOC2 = """
@@ -16,9 +15,6 @@ DOC2 = """
         *-----| .dpg |-----*```
         .dpg add_button\t\t returns the API documentation
         .dpg search button\t\t returns a list of all callbacks with the pattern button```
-        *-----| .exam |-----*```
-        .exam add_widget\t\t returns a example for the given pattern
-        .exam list\t\t returns a list of all examples```
         *-----| .sponsor |-----*```
         .sponsor\t\t returns a link for a sponsorship```
         *-----| .bug |-----*```

@@ -6,8 +6,7 @@ def example_none():
 
 def get_exampe(exam):
     try:
-        acExample = getattr(examples, exam, example_none())
-        return acExample
+        return getattr(examples, exam, example_none())
     except ValueError:
         return None
 
